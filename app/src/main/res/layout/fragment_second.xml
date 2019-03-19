@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".SecondFragment">
+
+    <!-- TODO: Update blank fragment layout --><![CDATA[
+
+    android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+    ]]>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="361dp"
+            android:orientation="horizontal" android:layout_marginTop="60dp">
+
+        <LinearLayout
+                android:layout_width="40dp"
+                android:layout_height="345dp"
+                android:orientation="vertical"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp" android:gravity="center_horizontal">
+
+            <ImageView
+                    android:src="@drawable/wa"
+                    android:layout_width="30dp"
+                    android:id="@+id/imageview1"
+                    android:layout_weight="1"
+                    android:layout_height="30dp" android:cropToPadding="false" android:adjustViewBounds="false"
+                    android:scaleType="fitCenter"/>
+
+            <ImageView
+                    android:src="@drawable/ig"
+                    android:layout_width="30dp"
+                    android:id="@+id/imageview2"
+                    android:layout_weight="1"
+                    android:layout_height="30dp"/>
+            <ImageView
+                    android:src="@drawable/fb"
+                    android:layout_width="30dp"
+                    android:id="@+id/imageview3"
+                    android:layout_weight="1"
+                    android:layout_height="30dp"/>
+            <ImageView
+                    android:src="@drawable/twitter"
+                    android:layout_width="30dp"
+                    android:id="@+id/imageview4"
+                    android:layout_weight="1"
+                    android:layout_height="30dp"/>
+            <ImageView
+                    android:src="@drawable/gmail"
+                    android:layout_width="30dp"
+                    android:id="@+id/imageview5"
+                    android:layout_weight="1"
+                    android:layout_height="30dp"/>
+            <ImageView
+                    android:src="@drawable/steam"
+                    android:layout_width="30dp"
+                    android:id="@+id/imageview6"
+                    android:layout_weight="1"
+                    android:layout_height="30dp"/>
+            <ImageView
+                    android:src="@drawable/origin"
+                    android:layout_width="30dp"
+                    android:id="@+id/imageview7"
+                    android:layout_weight="1"
+                    android:layout_height="30dp"/>
+            <ImageView
+                    android:src="@drawable/uplay"
+                    android:layout_width="30dp"
+                    android:id="@+id/imageview8"
+                    android:layout_weight="1"
+                    android:layout_height="30dp"/>
+            <ImageView
+                    android:src="@drawable/discord"
+                    android:layout_width="30dp"
+                    android:id="@+id/imageview9"
+                    android:layout_weight="1"
+                    android:layout_height="30dp"/>
+            <ImageView
+                    android:src="@drawable/github"
+                    android:layout_width="30dp"
+                    android:id="@+id/imageview10"
+                    android:layout_weight="1"
+                    android:layout_height="30dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="22dp"
+                android:layout_height="346dp"
+                android:orientation="vertical"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp" android:gravity="center">
+            <TextView
+                    android:layout_width="22dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=":"/>
+            <TextView
+                    android:layout_width="22dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=":"/>
+            <TextView
+                    android:layout_width="22dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=":"/>
+            <TextView
+                    android:layout_width="22dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=":" android:textAlignment="viewStart"/>
+            <TextView
+                    android:layout_width="22dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=":"/>
+            <TextView
+                    android:layout_width="22dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=":"/>
+            <TextView
+                    android:layout_width="22dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=":"/>
+            <TextView
+                    android:layout_width="22dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=":"/>
+            <TextView
+                    android:layout_width="22dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=":"/>
+            <TextView
+                    android:layout_width="22dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=":" android:textAlignment="viewStart"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="345dp"
+                android:layout_height="345dp"
+                android:orientation="vertical"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp">
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="(0812-2573-7057)"
+                    android:textStyle="bold|italic"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="(https://instagram.com/firman_arivianto)"
+                    android:textStyle="bold|italic"/>
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="(https://facebook.com/firmanariviant0)"
+                    android:textStyle="bold|italic"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="(https://twitter.com/firmanariviant0)"
+                    android:textStyle="bold|italic"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="(firmanarivianto@gmail.com)"
+                    android:textStyle="bold|italic"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="(rakyat_jelata)"
+                    android:textStyle="bold|italic"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="(firmanariviant0)"
+                    android:textStyle="bold|italic"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="(firmanarivianto)"
+                    android:textStyle="bold|italic"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="(firmanarivianto#8067)"
+                    android:textStyle="bold|italic"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="(https://github.com/firmanarivianto)"
+                    android:textStyle="bold|italic"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</TableLayout>

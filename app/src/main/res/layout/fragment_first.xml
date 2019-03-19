@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".FirstFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+            android:layout_width="218dp"
+            android:layout_height="297dp"
+            android:orientation="horizontal"
+            android:background="#eceff1">
+
+
+        <ImageView
+                android:src="@drawable/firman"
+                android:layout_width="159dp"
+                android:id="@+id/imageview"
+                android:layout_weight="1"
+                android:layout_height="231dp"
+                android:background="#eceff1"
+                android:layout_marginTop="60dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#eceff1"
+            android:orientation="horizontal">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="31dp"
+                android:layout_weight="1"
+                android:text="Dibuat Oleh :"
+                android:textAlignment="viewStart"
+                android:layout_marginTop="15dp" android:textSize="18sp" android:textStyle="bold"
+                android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="104dp"
+            android:background="#eceff1"
+            android:orientation="horizontal">
+
+        <LinearLayout
+                android:layout_width="91dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Nama"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Kelas"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="NPM"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=":"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=":"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=":"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="291dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Firman Arivianto"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="6B Informatika"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="16670050"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#eceff1"
+            android:orientation="horizontal">
+        <TextView
+                android:layout_width="278dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:text="Universitas PGRI Semarang"
+                android:textAlignment="center"
+                android:paddingTop="30dp" android:textSize="20sp" android:textStyle="bold"/>
+    </LinearLayout>
+    <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#eceff1"
+            android:orientation="horizontal">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="169dp"
+                android:layout_weight="1"
+                android:text="Tahun Pelajaran 2018 / 2019"
+                android:textAlignment="center"
+                android:paddingTop="5dp" android:textSize="22sp" android:textStyle="bold"/>
+    </LinearLayout>
+
+</TableLayout>
